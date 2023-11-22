@@ -13,3 +13,17 @@ D:\C#\Library\Library\obj\Debug\net6.0\refint\Library.dll
 D:\C#\Library\Library\obj\Debug\net6.0\Library.pdb
 D:\C#\Library\Library\obj\Debug\net6.0\Library.genruntimeconfig.cache
 D:\C#\Library\Library\obj\Debug\net6.0\ref\Library.dll
+E:\BE\Code\Syntax\basic-oop-c-\Library\bin\Debug\net6.0\Library.exe
+E:\BE\Code\Syntax\basic-oop-c-\Library\bin\Debug\net6.0\Library.deps.json
+E:\BE\Code\Syntax\basic-oop-c-\Library\bin\Debug\net6.0\Library.runtimeconfig.json
+E:\BE\Code\Syntax\basic-oop-c-\Library\bin\Debug\net6.0\Library.dll
+E:\BE\Code\Syntax\basic-oop-c-\Library\bin\Debug\net6.0\Library.pdb
+E:\BE\Code\Syntax\basic-oop-c-\Library\obj\Debug\net6.0\Library.GeneratedMSBuildEditorConfig.editorconfig
+E:\BE\Code\Syntax\basic-oop-c-\Library\obj\Debug\net6.0\Library.AssemblyInfoInputs.cache
+E:\BE\Code\Syntax\basic-oop-c-\Library\obj\Debug\net6.0\Library.AssemblyInfo.cs
+E:\BE\Code\Syntax\basic-oop-c-\Library\obj\Debug\net6.0\Library.csproj.CoreCompileInputs.cache
+E:\BE\Code\Syntax\basic-oop-c-\Library\obj\Debug\net6.0\Library.dll
+E:\BE\Code\Syntax\basic-oop-c-\Library\obj\Debug\net6.0\refint\Library.dll
+E:\BE\Code\Syntax\basic-oop-c-\Library\obj\Debug\net6.0\Library.pdb
+E:\BE\Code\Syntax\basic-oop-c-\Library\obj\Debug\net6.0\Library.genruntimeconfig.cache
+E:\BE\Code\Syntax\basic-oop-c-\Library\obj\Debug\net6.0\ref\Library.dll

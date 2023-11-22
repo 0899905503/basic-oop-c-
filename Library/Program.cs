@@ -171,49 +171,49 @@ namespace Library
     {
         static void Main()
         {
-            //DocGia d = new DocGia("Bao", "123");
-            //d.OutPutD();
-            //List <DocGia> docGias = new List<DocGia>();
-            //docGias.Add(d);
-            ////foreach (DocGia d2 in docGias)
-            ////{
-            ////   Console.WriteLine(d.OutPutD);
-            ////}
-            //Sach s = new Sach("2003", "Lieu Trai Chi Di", "Bo Tung Linh", "456");
-            //s.OutPutS();
-            //List<Sach> danhsachSach = new List<Sach>();
-            //danhsachSach.Add(s);
-            ////foreach (Sach d3 in danhsachSach)
-            ////{
-            ////   Console.WriteLine(d3.OutPutS);
-            ////}
-            //TheLoai s1 = new TheLoai("115", "Tieu Thuyet");
-            //s1.GetTL();
-            //s1.OutPutTL();
-            //Quyen s2 = new Quyen("11359", 18000, 2, "15/9/2003");
-            //s2.HoaDon();
-            //PhieuMuonTra t = new PhieuMuonTra("111", 16, 10);
-            //t.ThoiGian();
-            //Quyen a = new Quyen();
-            //static void InPutQuyen(List<Quyen> listquyen)
+            DocGia d = new DocGia("Bao", "123");
+            d.OutPutD();
+            List<DocGia> docGias = new List<DocGia>();
+            docGias.Add(d);
+            //foreach (DocGia d2 in docGias)
             //{
-            //    int n;
-            //    Console.WriteLine("Nhap so quyen sach cua thu vien : ");
-            //    n = int.Parse(Console.ReadLine());
-            //    for (int i = 0; i < n; i++)
-            //    {
-            //        Quyen a = new Quyen();
-            //        listquyen.Add(a);
-            //    }
+            //   Console.WriteLine(d.OutPutD);
             //}
-            //static void OutPutQuyen(List<Quyen> listquyen)
+            Sach s = new Sach("2003", "Lieu Trai Chi Di", "Bo Tung Linh", "456");
+            s.OutPutS();
+            List<Sach> danhsachSach = new List<Sach>();
+            danhsachSach.Add(s);
+            //foreach (Sach d3 in danhsachSach)
             //{
-            //    for (int i = 0; i < listquyen.Count; i++)
-            //    {
-            //        Console.WriteLine(listquyen[i]);
-            //    }
+            //   Console.WriteLine(d3.OutPutS);
             //}
-            //Console.ReadKey();
+            TheLoai s1 = new TheLoai("115", "Tieu Thuyet");
+            s1.GetTL();
+            s1.OutPutTL();
+            Quyen s2 = new Quyen("11359", 18000, 2, "15/9/2003");
+            s2.HoaDon();
+            PhieuMuonTra t = new PhieuMuonTra("111", 16, 10);
+            t.ThoiGian();
+            Quyen a = new Quyen();
+            static void InPutQuyen(List<Quyen> listquyen)
+            {
+                int n;
+                Console.WriteLine("Nhap so quyen sach cua thu vien : ");
+                n = int.Parse(Console.ReadLine());
+                for (int i = 0; i < n; i++)
+                {
+                    Quyen a = new Quyen();
+                    listquyen.Add(a);
+                }
+            }
+            static void OutPutQuyen(List<Quyen> listquyen)
+            {
+                for (int i = 0; i < listquyen.Count; i++)
+                {
+                    Console.WriteLine(listquyen[i]);
+                }
+            }
+            Console.ReadKey();
         }
     }
 }

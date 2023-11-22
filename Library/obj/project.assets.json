@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\tr\\.nuget\\packages\\": {}
+    "C:\\Users\\vongo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\C#\\Library\\Library\\Library.csproj",
+      "projectUniqueName": "E:\\BE\\Code\\Syntax\\basic-oop-c-\\Library\\Library.csproj",
       "projectName": "Library",
-      "projectPath": "D:\\C#\\Library\\Library\\Library.csproj",
-      "packagesPath": "C:\\Users\\tr\\.nuget\\packages\\",
-      "outputPath": "D:\\C#\\Library\\Library\\obj\\",
+      "projectPath": "E:\\BE\\Code\\Syntax\\basic-oop-c-\\Library\\Library.csproj",
+      "packagesPath": "C:\\Users\\vongo\\.nuget\\packages\\",
+      "outputPath": "E:\\BE\\Code\\Syntax\\basic-oop-c-\\Library\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\tr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\vongo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }
