@@ -81,6 +81,7 @@ namespace Library
         {
 
         }
+        //Contructor Book 
         public Quyen(string maVach, float giaTien, int lanTaiBan, string ngayThang)
         {
             this.maVach = maVach;
@@ -106,6 +107,7 @@ namespace Library
         //        Console.WriteLine(listquyen[i]);
         //    }
         //}
+
         public void HoaDon()
         {
             Console.WriteLine("-  Ngay muon sach : " + ngayThang);
@@ -113,6 +115,7 @@ namespace Library
             Console.WriteLine("-  Lan tai ban : " + lanTaiBan);
             Console.WriteLine("-  Gia tien : " + giaTien);
         }
+        // Khởi tạo List
         public List<Quyen> danhsachQuyen = new List<Quyen>();
         public string GetQuyen()
         {
@@ -127,15 +130,18 @@ namespace Library
         {
 
         }
+        //Contructor Docgia
         public DocGia(string tenDocGia, string maDocGia)
         {
             this.tenDocGia = tenDocGia;
             this.maDocGia = maDocGia;
         }
+        //Display Docgia
         public void OutPutD()
         {
             Console.WriteLine("-  Ten doc gia : " + tenDocGia + "/  Ma doc gia : " + maDocGia);
         }
+        //khởi tạo list Docgia
         public List<DocGia> danhsachDocGia = new List<DocGia>();
     }
     class PhieuMuonTra : Quyen
@@ -147,6 +153,7 @@ namespace Library
         {
 
         }
+        //contructor Phiếu mượn / Trả
         public PhieuMuonTra(string maPhieu, int ngayMuon, int ngayTra)
         {
             this.maPhieu = maPhieu;
@@ -154,6 +161,7 @@ namespace Library
             this.ngayTra = ngayTra;
             Console.WriteLine("-  Phieu muon tra chi co hieu luc trong thang ");
         }
+        //Mượn tối đa 7 ngày 
         public void ThoiGian()
         {
             if (ngayTra - ngayMuon <= 7)
@@ -165,6 +173,7 @@ namespace Library
                 Console.WriteLine("-  Vui long tra sach dung hen");
             }
         }
+        //list mượn/trả
         public  List<PhieuMuonTra> danhsachPhieuMuon = new List<PhieuMuonTra>();
     }
     class Test
@@ -194,7 +203,8 @@ namespace Library
             s2.HoaDon();
             PhieuMuonTra t = new PhieuMuonTra("111", 16, 10);
             t.ThoiGian();
-            Quyen a = new Quyen();
+            Quyen a = new Quyen(); 
+            //nhập vào list
             static void InPutQuyen(List<Quyen> listquyen)
             {
                 int n;
@@ -206,6 +216,7 @@ namespace Library
                     listquyen.Add(a);
                 }
             }
+            // xuất list
             static void OutPutQuyen(List<Quyen> listquyen)
             {
                 for (int i = 0; i < listquyen.Count; i++)
